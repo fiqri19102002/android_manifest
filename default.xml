@@ -19,6 +19,13 @@
            fetch="https://gitlab.com/"
            revision="sixteen" />
 
+  <remote  name="fiqri-gh"
+           fetch="https://github.com/fiqri19102002"
+           revision="refs/heads/sixteen" />
+
+  <remote  name="fiqri-cb"
+           fetch="https://codeberg.org/fiqri19102002" />
+
   <default revision="refs/tags/android-16.0.0_r2"
            remote="aosp"
            sync-j="4" />
@@ -1039,4 +1046,5 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixelos.xml" />
+  <include name="snippets/marble.xml" />
 </manifest>
