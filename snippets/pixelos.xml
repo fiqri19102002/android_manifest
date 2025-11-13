@@ -60,6 +60,9 @@
   <!-- Tools -->
   <project path="lineage/scripts" name="PixelOS-AOSP/scripts" groups="tools" remote="github" revision="main" />
 
+  <!-- Pixel launcher overlays -->
+  <project path="vendor/google/overlays/ThemeIcons" name="PixelOS-AOSP/vendor_google_overlays_ThemeIcons" remote="github" revision="sixteen" />
+
   <!-- google/pixel apps -->
   <project path="vendor/pixel/extract-utils" name="PixelOS-AOSP/android_vendor_pixel_extract-utils" remote="gitlab" revision="sixteen" >
     <linkfile src="extract-all.sh" dest="vendor/pixel/extract-all.sh" />
