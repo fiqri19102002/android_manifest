@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <!-- Marble device tree -->
   <project path="device/xiaomi/marble" name="android_device_xiaomi_marble" remote="fiqri-gh" />
   <project path="device/xiaomi/miuicamera-marble" name="android_device_xiaomi_miuicamera-marble" remote="fiqri-gh" revision="lineage-23.0" />
@@ -16,4 +15,7 @@
 
   <!-- hardware/xiaomi -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="fiqri-gh" />
+
+  <!-- Signing keys -->
+  <project path="vendor/custom/signing" name="vendor_custom_signing-keys" remote="fiqri-cb" revision="sixteen" />
 </manifest>
