@@ -1047,4 +1047,5 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixelos.xml" />
   <include name="snippets/marble.xml" />
+  <include name="snippets/forked.xml" />
 </manifest>
