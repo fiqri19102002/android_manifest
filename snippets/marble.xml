@@ -5,7 +5,7 @@
   <project path="device/xiaomi/miuicamera-marble" name="android_device_xiaomi_miuicamera-marble" remote="fiqri-gh" revision="lineage-23.0" />
 
   <!-- Marble kernel tree -->
-  <project path="kernel/xiaomi/marble" name="android_kernel_xiaomi_marble" remote="fiqri-gh" revision="a12/main" />
+  <project path="kernel/xiaomi/marble" name="android_kernel_xiaomi_marble" remote="fiqri-gh" revision="a13/main" />
   <project path="kernel/xiaomi/marble-devicetrees" name="android_kernel_xiaomi_marble-devicetrees" remote="fiqri-gh" revision="lineage-23.0" />
   <project path="kernel/xiaomi/marble-modules" name="android_kernel_xiaomi_marble-modules" remote="fiqri-gh" revision="lineage-23.0" />
 
