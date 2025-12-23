@@ -14,7 +14,7 @@ repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b sixteen-qpr
 Then, sync the repository:
 
 ```bash
-repo sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
 ```
 
 ## Building the System
