@@ -11,23 +11,23 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/release" name="PixelOS-AOSP/android_build_release" groups="pdk,tradefed,sysui-studio" remote="github" />
+  <project path="build/release" name="PixelOS-AOSP/android_build_release" groups="pdk,tradefed,sysui-studio" remote="github" revision="refs/changes/64/4264/1" />
   <project path="development" name="PixelOS-AOSP/android_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" remote="github" />
   <project path="device/custom/sepolicy" name="PixelOS-AOSP/android_device_custom_sepolicy" remote="github" />
   <project path="external/avb" name="PixelOS-AOSP/android_external_avb" groups="pdk" remote="github" />
   <project path="external/bouncycastle" name="PixelOS-AOSP/android_external_bouncycastle" groups="pdk" remote="github" />
   <project path="external/dtc" name="PixelOS-AOSP/android_external_dtc" groups="pdk" remote="github" />
-  <project path="external/dng_sdk" name="PixelOS-AOSP/android_external_dng_sdk" groups="pdk" remote="github" />
+  <project path="external/dng_sdk" name="PixelOS-AOSP/android_external_dng_sdk" groups="pdk" remote="github" revision="refs/changes/65/4265/1" />
   <project path="external/e2fsprogs" name="PixelOS-AOSP/android_external_e2fsprogs" groups="pdk" remote="github" />
   <project path="external/gptfdisk" name="PixelOS-AOSP/android_external_gptfdisk" groups="pdk" remote="github" />
   <project path="external/mksh" name="PixelOS-AOSP/android_external_mksh" groups="pdk" remote="github" />
-  <project path="external/skia" name="PixelOS-AOSP/android_external_skia" groups="pdk,qcom_msm8x26" remote="github" />
-  <project path="external/sqlite" name="PixelOS-AOSP/android_external_sqlite" groups="pdk" remote="github" />
+  <project path="external/skia" name="PixelOS-AOSP/android_external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="refs/changes/68/4268/1" />
+  <project path="external/sqlite" name="PixelOS-AOSP/android_external_sqlite" groups="pdk" remote="github" revision="refs/changes/69/4269/1" />
   <project path="external/tinycompress" name="PixelOS-AOSP/android_external_tinycompress" groups="pdk" remote="github" />
   <project path="external/zstd" name="PixelOS-AOSP/android_external_zstd" groups="pdk" remote="github" />
-  <project path="frameworks/av" name="PixelOS-AOSP/android_frameworks_av" groups="pdk,sysui-studio" remote="github" />
-  <project path="frameworks/native" name="PixelOS-AOSP/android_frameworks_native" groups="pdk" remote="github" />
-  <project path="frameworks/opt/telephony" name="PixelOS-AOSP/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="github" />
+  <project path="frameworks/av" name="PixelOS-AOSP/android_frameworks_av" groups="pdk,sysui-studio" remote="github" revision="refs/changes/70/4270/1" />
+  <project path="frameworks/native" name="PixelOS-AOSP/android_frameworks_native" groups="pdk" remote="github" revision="refs/changes/73/4273/1" />
+  <project path="frameworks/opt/telephony" name="PixelOS-AOSP/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="github" revision="refs/changes/74/4274/1" />
   <project path="hardware/broadcom/libbt" name="PixelOS-AOSP/android_hardware_broadcom_libbt" groups="pdk" remote="github" />
   <project path="hardware/google/pixel" name="PixelOS-AOSP/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="github" />
   <project path="hardware/google/pixel-sepolicy" name="PixelOS-AOSP/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="github" />
@@ -36,7 +36,7 @@
   <project path="hardware/samsung/nfc" name="PixelOS-AOSP/android_hardware_samsung_nfc" groups="pdk" remote="github" />
   <project path="hardware/st/nfc" name="PixelOS-AOSP/android_hardware_st_nfc" groups="pdk" remote="github" />
   <project path="kernel/configs" name="PixelOS-AOSP/android_kernel_configs" groups="vts,pdk" remote="github" />
-  <project path="packages/apps/CertInstaller" name="PixelOS-AOSP/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" />
+  <project path="packages/apps/CertInstaller" name="PixelOS-AOSP/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" revision="refs/changes/75/4275/1" />
   <project path="packages/apps/ParanoidSense" name="PixelOS-AOSP/android_packages_apps_ParanoidSense" remote="github" />
   <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
   <project path="packages/apps/Updater" name="PixelOS-AOSP/android_packages_apps_Updater" remote="github" />
@@ -44,14 +44,14 @@
   <project path="packages/modules/Bluetooth" name="PixelOS-AOSP/android_packages_modules_Bluetooth" groups="pdk" remote="github" />
   <project path="packages/modules/common" name="PixelOS-AOSP/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/modules/Connectivity" name="PixelOS-AOSP/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="github" />
-  <project path="packages/modules/IntentResolver" name="PixelOS-AOSP/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="github" />
+  <project path="packages/modules/IntentResolver" name="PixelOS-AOSP/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="github" revision="refs/changes/78/4278/1" />
   <project path="packages/modules/Permission" name="PixelOS-AOSP/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/modules/UprobeStats" name="PixelOS-AOSP/android_packages_modules_UprobeStats" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/modules/Wifi" name="PixelOS-AOSP/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="github" />
   <project path="packages/services/DeviceAsWebcam" name="PixelOS-AOSP/android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="github" />
-  <project path="packages/services/Mms" name="PixelOS-AOSP/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="github" />
-  <project path="packages/services/Telecomm" name="PixelOS-AOSP/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" />
-  <project path="packages/services/Telephony" name="PixelOS-AOSP/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" />
+  <project path="packages/services/Mms" name="PixelOS-AOSP/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="github" revision="refs/changes/79/4279/1" />
+  <project path="packages/services/Telecomm" name="PixelOS-AOSP/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="refs/changes/80/4280/1" />
+  <project path="packages/services/Telephony" name="PixelOS-AOSP/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="refs/changes/83/4283/1" />
   <project path="system/bpf" name="PixelOS-AOSP/android_system_bpf" groups="pdk" remote="github" />
   <project path="system/chre" name="PixelOS-AOSP/android_system_chre" groups="pdk" remote="github" />
   <project path="system/core" name="PixelOS-AOSP/android_system_core" groups="pdk" remote="github" />
