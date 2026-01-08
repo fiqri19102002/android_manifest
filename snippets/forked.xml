@@ -8,5 +8,5 @@
   <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="fiqri-gh" revision="bka" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="fiqri-gh" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="fiqri-gh" />
-  <project path="vendor/custom" name="android_vendor_custom" remote="fiqri-gh" />
+  <project path="vendor/custom" name="android_vendor_custom" remote="fiqri-gh" revision="lmodroid-freeform" />
 </manifest>
