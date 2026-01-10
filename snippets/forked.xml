@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="fiqri-gh">
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="fiqri-gh" revision="lmodroid-freeform">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
