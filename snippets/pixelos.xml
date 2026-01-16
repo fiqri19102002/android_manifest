@@ -56,6 +56,7 @@
   <project path="system/bpf" name="PixelOS-AOSP/android_system_bpf" groups="pdk" remote="github" />
   <project path="system/chre" name="PixelOS-AOSP/android_system_chre" groups="pdk" remote="github" />
   <project path="system/core" name="PixelOS-AOSP/android_system_core" groups="pdk" remote="github" />
+  <project path="system/extras" name="PixelOS-AOSP/android_system_extras" groups="pdk" remote="github" />
   <project path="system/logging" name="PixelOS-AOSP/android_system_logging" groups="pdk" remote="github" />
   <project path="system/libziparchive" name="PixelOS-AOSP/android_system_libziparchive" groups="pdk" remote="github" />
   <project path="system/media" name="PixelOS-AOSP/android_system_media" groups="pdk" remote="github" />
