@@ -14,7 +14,7 @@
   <project path="vendor/xiaomi/miuicamera-marble" name="proprietary_vendor_xiaomi_miuicamera-marble" remote="fiqri-cb" revision="lineage-23.2" />
 
   <!-- hardware/xiaomi -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="fiqri-gh" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="fiqri-gh" revision="lineage-23.2" />
 
   <!-- Signing keys -->
   <project path="vendor/custom/signing" name="vendor_custom_signing-keys" remote="fiqri-cb" revision="sixteen" />
