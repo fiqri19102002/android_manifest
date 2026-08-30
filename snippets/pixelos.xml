@@ -12,10 +12,6 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="PixelOS-AOSP/android_build_soong" groups="pdk,tradefed,sysui-studio" remote="github">
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="development" name="PixelOS-AOSP/android_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" remote="github" />
   <project path="device/custom/sepolicy" name="PixelOS-AOSP/android_device_custom_sepolicy" remote="github" />
   <project path="external/avb" name="PixelOS-AOSP/android_external_avb" groups="pdk" remote="github" />
@@ -70,7 +66,6 @@
   <project path="system/security" name="PixelOS-AOSP/android_system_security" groups="pdk" remote="github" />
   <project path="system/update_engine" name="PixelOS-AOSP/android_system_update_engine" groups="pdk" remote="github" />
   <project path="system/vold" name="PixelOS-AOSP/android_system_vold" groups="pdk" remote="github" />
-  <project path="vendor/custom" name="PixelOS-AOSP/android_vendor_custom" remote="github" />
   <project path="vendor/custom-preference" name="PixelOS-AOSP/android_vendor_custom-preference" remote="github" />
   <project path="vendor/crowdin" name="PixelOS-AOSP/android_vendor_crowdin" remote="github" revision="seventeen" />
 
