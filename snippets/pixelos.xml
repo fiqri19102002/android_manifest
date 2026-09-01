@@ -28,13 +28,11 @@
   <project path="frameworks/av" name="PixelOS-AOSP/android_frameworks_av" groups="pdk,sysui-studio" remote="github" />
   <project path="frameworks/native" name="PixelOS-AOSP/android_frameworks_native" groups="pdk,sysui-studio" remote="github" />
   <project path="frameworks/opt/telephony" name="PixelOS-AOSP/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="github" />
-  <project path="hardware/broadcom/libbt" name="PixelOS-AOSP/android_hardware_broadcom_libbt" groups="pdk" remote="github" />
   <project path="hardware/google/pixel" name="PixelOS-AOSP/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="github" />
   <project path="hardware/google/pixel-sepolicy" name="PixelOS-AOSP/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="github" />
   <project path="hardware/interfaces" name="PixelOS-AOSP/android_hardware_interfaces" groups="pdk,sysui-studio" remote="github" />
   <project path="hardware/libhardware" name="PixelOS-AOSP/android_hardware_libhardware" groups="pdk" remote="github" />
   <project path="hardware/nxp/nfc" name="PixelOS-AOSP/android_hardware_nxp_nfc" groups="pdk" remote="github" />
-  <project path="hardware/samsung/nfc" name="PixelOS-AOSP/android_hardware_samsung_nfc" groups="pdk" remote="github" />
   <project path="hardware/st/nfc" name="PixelOS-AOSP/android_hardware_st_nfc" groups="pdk" remote="github" />
   <project path="kernel/configs" name="PixelOS-AOSP/android_kernel_configs" groups="vts,pdk" remote="github" />
   <project path="packages/apps/ParanoidSense" name="PixelOS-AOSP/android_packages_apps_ParanoidSense" remote="github" />
@@ -44,7 +42,6 @@
   <project path="packages/apps/ColumbusService" name="PixelOS-AOSP/android_packages_apps_ColumbusService" remote="github" />
   <project path="packages/modules/adb" name="PixelOS-AOSP/android_packages_modules_adb" groups="pdk" remote="github" />
   <project path="packages/modules/Bluetooth" name="PixelOS-AOSP/android_packages_modules_Bluetooth" groups="pdk" remote="github" />
-  <project path="packages/modules/common" name="PixelOS-AOSP/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/modules/Connectivity" name="PixelOS-AOSP/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/modules/Permission" name="PixelOS-AOSP/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/modules/UprobeStats" name="PixelOS-AOSP/android_packages_modules_UprobeStats" groups="pdk-cw-fs,pdk-fs" remote="github" />
@@ -61,7 +58,6 @@
   <project path="system/libziparchive" name="PixelOS-AOSP/android_system_libziparchive" groups="pdk" remote="github" />
   <project path="system/media" name="PixelOS-AOSP/android_system_media" groups="pdk" remote="github" />
   <project path="system/memory/libmeminfo" name="PixelOS-AOSP/android_system_memory_libmeminfo" groups="pdk" remote="github" />
-  <project path="system/netd" name="PixelOS-AOSP/android_system_netd" groups="pdk" remote="github" />
   <project path="system/sepolicy" name="PixelOS-AOSP/android_system_sepolicy" groups="pdk" remote="github" />
   <project path="system/security" name="PixelOS-AOSP/android_system_security" groups="pdk" remote="github" />
   <project path="system/update_engine" name="PixelOS-AOSP/android_system_update_engine" groups="pdk" remote="github" />
