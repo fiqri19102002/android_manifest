@@ -10,6 +10,7 @@
   <remove-project name="platform/development" />
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/bouncycastle" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/exfatprogs" />
