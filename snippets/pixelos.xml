@@ -78,7 +78,6 @@
   <project path="packages/services/Telephony" name="PixelOS-AOSP/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="system/bpf" name="PixelOS-AOSP/android_system_bpf" groups="pdk" remote="github" />
   <project path="system/chre" name="PixelOS-AOSP/android_system_chre" groups="pdk" remote="github" />
-  <project path="system/core" name="PixelOS-AOSP/android_system_core" groups="pdk" remote="github" />
   <project path="system/extras" name="PixelOS-AOSP/android_system_extras" groups="pdk" remote="github" />
   <project path="system/fs/fs_mgr" name="PixelOS-AOSP/android_system_fs_fs_mgr" groups="pdk" remote="github" />
   <project path="system/logging" name="PixelOS-AOSP/android_system_logging" groups="pdk" remote="github" />
