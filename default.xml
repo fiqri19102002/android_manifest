@@ -1141,5 +1141,6 @@
   <include name="snippets/pixelos.xml" />
   <include name="snippets/marble.xml" />
   <include name="snippets/forked.xml" />
+  <include name="snippets/kernel-6.6.xml" />
 
 </manifest>
