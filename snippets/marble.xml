@@ -2,16 +2,19 @@
 <manifest>
   <!-- Marble device tree -->
   <project path="device/xiaomi/marble" name="android_device_xiaomi_marble" remote="fiqri-gh" />
-  <project path="device/xiaomi/miuicamera-marble" name="android_device_xiaomi_miuicamera-marble" remote="fiqri-gh" revision="lineage-24.0" />
+  <project path="device/xiaomi/miuicamera-marble" name="android_device_xiaomi_miuicamera-marble" remote="fiqri-gh" revision="lineage-24.0-6.6" />
+
+  <!-- Marble kleaf kernel build -->
+  <project path="kernel/platform/kernel-6.6/vendor/xiaomi/marble-build" name="android_kernel_xiaomi_marble-build" remote="fiqri-gh" revision="lineage-24.0-6.6" />
 
   <!-- Marble kernel tree -->
-  <project path="kernel/xiaomi/marble" name="android_kernel_xiaomi_marble" remote="fiqri-gh" revision="a13/main" />
-  <project path="kernel/xiaomi/marble-devicetrees" name="android_kernel_xiaomi_marble-devicetrees" remote="fiqri-gh" revision="lineage-24.0" />
-  <project path="kernel/xiaomi/marble-modules" name="android_kernel_xiaomi_marble-modules" remote="fiqri-gh" revision="lineage-24.0" />
+  <project path="kernel/platform/kernel-6.6/vendor/xiaomi/marble-kernel" name="android_kernel_xiaomi_marble" remote="fiqri-gh" revision="lineage-24.0-6.6" />
+  <project path="kernel/platform/kernel-6.6/vendor/xiaomi/marble-devicetrees" name="android_kernel_xiaomi_marble-devicetrees" remote="fiqri-gh" revision="lineage-24.0-6.6" />
+  <project path="kernel/platform/kernel-6.6/vendor/xiaomi/marble-modules" name="android_kernel_xiaomi_marble-modules" remote="fiqri-gh" revision="lineage-24.0-6.6" />
 
   <!-- Marble vendor tree -->
   <project path="vendor/xiaomi/marble" name="proprietary_vendor_xiaomi_marble" remote="fiqri-cb" revision="lineage-24.0-cust" />
-  <project path="vendor/xiaomi/miuicamera-marble" name="proprietary_vendor_xiaomi_miuicamera-marble" remote="fiqri-cb" revision="lineage-24.0" />
+  <project path="vendor/xiaomi/miuicamera-marble" name="proprietary_vendor_xiaomi_miuicamera-marble" remote="fiqri-cb" revision="lineage-24.0-6.6" />
 
   <!-- hardware/xiaomi -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="fiqri-gh" revision="lineage-24.0-cust" />
